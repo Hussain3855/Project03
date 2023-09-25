@@ -28,7 +28,10 @@ public class Main {
             array[i + 1] = key;
         }
     }
-    public static void sort(int[] arr){
+    public static void sortI(int[] arr){
         insertionSort(arr);
+    }
+    public static void sortS(int[] arr){
+        selectionSort(arr);
     }
 }
